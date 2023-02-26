@@ -1,0 +1,11 @@
+.footer{
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: var(--theme-color);
+    font-size: 18px;
+    font-family: 'Cookie', cursive;
+    border-style: solid;
+    border-color: var(--navbar-color);
+    }

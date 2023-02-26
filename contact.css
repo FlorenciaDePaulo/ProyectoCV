@@ -1,0 +1,152 @@
+.contact {
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 0 10px;
+    min-height: 400px;
+    display: grid;
+    gap: 25px;
+    box-sizing: border-box;
+  }
+
+  .contact p,
+  .contact h2{
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact ul {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .contact-title {
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-details,
+  .contact-form{
+    display: grid;
+    margin: 5px;
+    gap: 3px;
+  }
+
+  .contact-details-group,
+  .contact-form-group{
+    display: grid;
+    gap: 2px;
+    }
+
+  .contact-label{
+    display: grid;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+  }
+
+  .contact-form input{
+    display: grid;
+    border-radius: 5px;
+    border: double;
+    width: 100%;
+    height: 25px;
+  }
+
+  .contact-form textarea{
+    display: grid;
+    border-radius: 5px;
+    border: double;
+    width: 100%;
+    height: 50px;
+    max-height: max-content;
+    resize: vertical;
+    }
+
+    .contact-form-submit{
+    width: 100%;
+    height: 30px;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    color: var(--text-color-inverse);
+    border: 1px solid var(--theme-color);
+    cursor: pointer;
+  }
+
+  .contact-form-submit:hover{
+    filter: brightness(180%);
+}
+
+  .contact-form-submit{
+    box-shadow: 0 0 15px var(--navbar-color);
+  }
+
+
+  @media (min-width: 600px){
+    .contact {
+      background-color: var(--navbar-color);
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 15px;
+      padding: 20px;
+      height: 500px;
+      max-width: 980px;
+      margin: 0;
+      box-sizing: border-box;
+      }
+  
+    .contact-title {
+      text-align: left;
+      font-size: 30px;
+    }
+
+    .contact-form input{
+    border-radius: 10px;
+    border: double;
+    width: 100%;
+    height: 30px;
+    resize: vertical;
+    }
+
+    .contact-form textarea{
+      min-height: 70px;
+    }
+
+    .contact-title{
+      grid-area: title;
+    }
+
+    .contact-title{
+      grid-area: details;
+    }
+
+    .contact-title{
+      grid-area: form;
+    }
+
+  .contact{
+      display: grid;
+        grid:
+        "title"/auto
+        "details  form"/auto
+  }
+
+  .contact-form-submit{
+    width: 100%;
+    height: 50px;
+    background-color: var(--theme-color);
+    border-radius: 15px;
+    color: var(--text-color);
+    font-weight: 600;
+    border: 3px solid var(--third-color);
+    cursor: pointer;
+  }
+
+}
+    

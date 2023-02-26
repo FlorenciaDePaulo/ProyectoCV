@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    :root {
+        --theme-color: #FF9A76;
+        --primary-color: #124f88;
+        --secondary-color: #F7C331;
+        --third-color: #f0b49e;
+        --text-color: black;
+        --text-color-inverse: white;
+        --navbar-color: tomato;
+        scroll-behavior: smooth;
+        }
+
+        header{
+          /* position: sticky; */
+          top: 0;
+          background-color: tomato;
+          border-style: solid;
+          border-color: var(--theme-color)
+        }
+    
+        section[id]{
+          scroll-margin-top: 70px;
+        }
+      
+        body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--third-color);
+        color: var(--text-color);
+        padding-top: 0px;
+        }
+    
+        a{
+          text-decoration: none;
+          color: var(--text-color);
+        }
+    
+        .horizontal-padding{
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+    
+        .vertical-padding{
+          padding-top: 25px;
+          padding-bottom: 25px;
+        }
+    
+        @media (min-width: 800px) {
+        
+          .vertical-padding{
+            padding-top: 70px;
+            padding-bottom: 70px;
+          }
+        }    
+
+      /*     
+  
+
+
+    section#hero{
+
+        background-color: #FF9A76;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-small;
+        font-family: 'Monserrat', sans-serif;
+        font-style: italic;
+        height: 90vh;
+        list-style: none;
+        border-style: solid;
+        border-bottom-color: tomato;
+        border-top-color: #FF9A76;
+        border-right-color: tomato;
+        border-left-color: tomato;
+    }
+
+    h1{       
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: initial;
+		}
+
+    h2{
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+  
+
+
+
+
+        nav ul{
+            display: flex;
+            justify-content: left;
+            list-style: none;
+        }
+    
+        nav ul li{
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+            font-size: medium;
+            font-family: 'Trebuchet MS', cursive;
+        }
+        
+        
+        
+        
+          section{
+        height: 90vh;
+    }
+        
+        
+        
+        
+        */
+
+
+
+
